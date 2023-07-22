@@ -5,8 +5,7 @@ import { useParams } from 'react-router-dom';
 export const ChatUnReadContext = createContext();
 export const useChatUnRead = () => useContext(ChatUnReadContext);
 export function ChatUnReadProvider({ children }) {
-  const [chatUnRead, setChatUnRead] = useState({ empty: true, messages: [] });
-  const [chatMessages, setChatMessages] = useState({});
+  const [chatUnRead, setChatUnRead] = useState({ empty: true, messages: [], allUnreadCounts:null});
   const { roomId } = useParams()
   const { socket } = useAuth();
 
@@ -26,6 +25,7 @@ export function ChatUnReadProvider({ children }) {
           setChatUnRead({ empty: true, messages, allUnreadCounts });
         } else {
           setChatUnRead({ empty: false, messages, allUnreadCounts });
+          
         }
       });
 
@@ -35,6 +35,15 @@ export function ChatUnReadProvider({ children }) {
       };
     }
   }, [socket, roomId]);
+
+  //updateUnreadCounts(在ChatNavbars)回調
+  //const updateUnreadCounts =(counts)=>{
+    //setChatUnRead((prev)=>({
+      //...prev,
+      //allUnreadCounts:counts
+    //}));
+   // return chatUnRead.allUnreadCounts;
+ // };
 
   return (
     <ChatUnReadContext.Provider value={{ chatUnRead, setChatUnRead, socket }}>

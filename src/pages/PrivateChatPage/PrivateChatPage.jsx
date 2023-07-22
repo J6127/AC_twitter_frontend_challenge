@@ -29,10 +29,18 @@ const PrivateChatPage = () => {
       switch (Object.keys(chatUser).length) {
         // 未選擇目標對象
         case 0:
+          if(chatUnRead.messages.length>0&&chatUnRead.messages[0].targetUser){
           setHeaderContext({
             title: chatUnRead.messages[0].targetUser.name,
             subtitle: chatUnRead.messages[0].targetUser.account
           });
+        }else{
+          //錯誤處理
+          setHeaderContext({
+            title:'聊天室',
+            subtitle:'',
+          });
+        }
           break;
         default:
           setHeaderContext({ title: chatUser.name, subtitle: chatUser.account });

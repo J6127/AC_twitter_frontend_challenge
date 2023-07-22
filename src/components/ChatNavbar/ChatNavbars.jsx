@@ -32,22 +32,6 @@ const ChatNavbars = ({ onTweetSubmit }) => {
   const { socket, chatUnRead } = useChatUnRead();
   const { roomId } = useParams()
 
-  //要讀取socket.io
-  /*const socket = useChat();
-  //連線
-  useEffect(() => {
-    if (socket) {
-      socket.on('server-message', (data) => {
-        setHasNewMessage(true);
-      });
-      return () => {
-        if (socket) {
-          socket.off('server-message');
-        };
-      }
-    }
-  }, [socket]);*/
-
   useEffect(() => {
     setIconClicked(location.pathname);
   }, [location]);
@@ -70,7 +54,9 @@ const ChatNavbars = ({ onTweetSubmit }) => {
 
     }
   }
-
+  useEffect(() => {
+    console.log('allUnreadCounts變化了：', chatUnRead.allUnreadCounts);
+  }, [chatUnRead.allUnreadCounts]);
 
   return (
     <>

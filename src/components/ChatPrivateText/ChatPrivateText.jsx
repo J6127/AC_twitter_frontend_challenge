@@ -11,7 +11,7 @@ import { useChatUnRead } from "../../context/ChatUnreadContext";
 const ChatPrivateText = ({ roomId }) => {
   const socket = useChat()
   const { setChatUser } = useChatUser();
-  const { chatUnRead } = useChatUnRead();
+  const { chatUnRead} = useChatUnRead();
 
   const navigate = useNavigate();
   dayjs.extend(relativeTime);
@@ -27,10 +27,19 @@ const ChatPrivateText = ({ roomId }) => {
     }
     setChatUser(targetData.user)
     navigate(`/chat/${targetData.roomId}`)
-  }
+  };
 
-
-
+  //useEffect儲存情況，要不然切換room會失敗
+  useEffect(()=>{
+    if(socket){
+    if(roomId){
+      socket.emit('client-enter-room',roomId);
+    }
+    return()=>{
+        socket?.off('server-enter-room');
+    
+    }}
+  },[roomId]);
 
 
 
@@ -47,9 +56,9 @@ const ChatPrivateText = ({ roomId }) => {
             ? messageDate.format('YYYY/MM/DD')
             : messageDate.from(now);
 
-
+          const allUnreadMessageCounts=chatUnRead.allUnreadCounts;
           return (
-            <div className={style.chatUserCard} key={index} onClick={() => handleRoomClick({ roomId: item.roomId, user: item.targetUser })}>
+            <div className={style.chatUserCard} key={index} onClick={() => handleRoomClick({ roomId: item.roomId, user: item.targetUser,allUnreadMessageCounts})}>
               <img className={style.avatar} src={item.targetUser.avatar} alt={item.targetUser.name} />
               <div className={style.userInfo}>
                 <div className={style.userTime}>
