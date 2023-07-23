@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/AC_twitter_frontend_challenge/static/css/main.16366ef6.chunk.css",
-    "main.js": "/AC_twitter_frontend_challenge/static/js/main.fb52eba6.chunk.js",
-    "main.js.map": "/AC_twitter_frontend_challenge/static/js/main.fb52eba6.chunk.js.map",
+    "main.css": "/AC_twitter_frontend_challenge/static/css/main.fe44410c.chunk.css",
+    "main.js": "/AC_twitter_frontend_challenge/static/js/main.e89e9630.chunk.js",
+    "main.js.map": "/AC_twitter_frontend_challenge/static/js/main.e89e9630.chunk.js.map",
     "runtime-main.js": "/AC_twitter_frontend_challenge/static/js/runtime-main.d457e332.js",
     "runtime-main.js.map": "/AC_twitter_frontend_challenge/static/js/runtime-main.d457e332.js.map",
     "static/css/2.34108fd0.chunk.css": "/AC_twitter_frontend_challenge/static/css/2.34108fd0.chunk.css",
-    "static/js/2.6acfd049.chunk.js": "/AC_twitter_frontend_challenge/static/js/2.6acfd049.chunk.js",
-    "static/js/2.6acfd049.chunk.js.map": "/AC_twitter_frontend_challenge/static/js/2.6acfd049.chunk.js.map",
+    "static/js/2.3b0068cc.chunk.js": "/AC_twitter_frontend_challenge/static/js/2.3b0068cc.chunk.js",
+    "static/js/2.3b0068cc.chunk.js.map": "/AC_twitter_frontend_challenge/static/js/2.3b0068cc.chunk.js.map",
     "static/js/3.c54f9a1f.chunk.js": "/AC_twitter_frontend_challenge/static/js/3.c54f9a1f.chunk.js",
     "static/js/3.c54f9a1f.chunk.js.map": "/AC_twitter_frontend_challenge/static/js/3.c54f9a1f.chunk.js.map",
     "index.html": "/AC_twitter_frontend_challenge/index.html",
     "static/css/2.34108fd0.chunk.css.map": "/AC_twitter_frontend_challenge/static/css/2.34108fd0.chunk.css.map",
-    "static/css/main.16366ef6.chunk.css.map": "/AC_twitter_frontend_challenge/static/css/main.16366ef6.chunk.css.map",
-    "static/js/2.6acfd049.chunk.js.LICENSE.txt": "/AC_twitter_frontend_challenge/static/js/2.6acfd049.chunk.js.LICENSE.txt",
+    "static/css/main.fe44410c.chunk.css.map": "/AC_twitter_frontend_challenge/static/css/main.fe44410c.chunk.css.map",
+    "static/js/2.3b0068cc.chunk.js.LICENSE.txt": "/AC_twitter_frontend_challenge/static/js/2.3b0068cc.chunk.js.LICENSE.txt",
+    "static/media/Group.d53da586.svg": "/AC_twitter_frontend_challenge/static/media/Group.d53da586.svg",
     "static/media/Vector.07ff379b.svg": "/AC_twitter_frontend_challenge/static/media/Vector.07ff379b.svg",
     "static/media/avatar.c467462b.svg": "/AC_twitter_frontend_challenge/static/media/avatar.c467462b.svg",
     "static/media/back.d5843653.svg": "/AC_twitter_frontend_challenge/static/media/back.d5843653.svg",
@@ -27,6 +28,7 @@
     "static/media/email.37dba268.svg": "/AC_twitter_frontend_challenge/static/media/email.37dba268.svg",
     "static/media/homeLine.abc01d25.svg": "/AC_twitter_frontend_challenge/static/media/homeLine.abc01d25.svg",
     "static/media/isHome.c9340fbe.svg": "/AC_twitter_frontend_challenge/static/media/isHome.c9340fbe.svg",
+    "static/media/isMessage.c6404230.svg": "/AC_twitter_frontend_challenge/static/media/isMessage.c6404230.svg",
     "static/media/isProfile.fc9aa2f6.svg": "/AC_twitter_frontend_challenge/static/media/isProfile.fc9aa2f6.svg",
     "static/media/isSetting.c80fa17f.svg": "/AC_twitter_frontend_challenge/static/media/isSetting.c80fa17f.svg",
     "static/media/like.aab5a3fb.svg": "/AC_twitter_frontend_challenge/static/media/like.aab5a3fb.svg",
@@ -45,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.d457e332.js",
     "static/css/2.34108fd0.chunk.css",
-    "static/js/2.6acfd049.chunk.js",
-    "static/css/main.16366ef6.chunk.css",
-    "static/js/main.fb52eba6.chunk.js"
+    "static/js/2.3b0068cc.chunk.js",
+    "static/css/main.fe44410c.chunk.css",
+    "static/js/main.e89e9630.chunk.js"
   ]
 }
