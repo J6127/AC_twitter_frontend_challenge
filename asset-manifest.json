@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/AC_twitter_frontend_challenge/static/css/main.03c0fecc.chunk.css",
-    "main.js": "/AC_twitter_frontend_challenge/static/js/main.82aa9482.chunk.js",
-    "main.js.map": "/AC_twitter_frontend_challenge/static/js/main.82aa9482.chunk.js.map",
+    "main.css": "/AC_twitter_frontend_challenge/static/css/main.a456deb1.chunk.css",
+    "main.js": "/AC_twitter_frontend_challenge/static/js/main.28224f81.chunk.js",
+    "main.js.map": "/AC_twitter_frontend_challenge/static/js/main.28224f81.chunk.js.map",
     "runtime-main.js": "/AC_twitter_frontend_challenge/static/js/runtime-main.c7d5e062.js",
     "runtime-main.js.map": "/AC_twitter_frontend_challenge/static/js/runtime-main.c7d5e062.js.map",
     "static/css/2.34108fd0.chunk.css": "/AC_twitter_frontend_challenge/static/css/2.34108fd0.chunk.css",
-    "static/js/2.8e6e1999.chunk.js": "/AC_twitter_frontend_challenge/static/js/2.8e6e1999.chunk.js",
-    "static/js/2.8e6e1999.chunk.js.map": "/AC_twitter_frontend_challenge/static/js/2.8e6e1999.chunk.js.map",
+    "static/js/2.e11356e4.chunk.js": "/AC_twitter_frontend_challenge/static/js/2.e11356e4.chunk.js",
+    "static/js/2.e11356e4.chunk.js.map": "/AC_twitter_frontend_challenge/static/js/2.e11356e4.chunk.js.map",
     "static/js/3.3ca53f6b.chunk.js": "/AC_twitter_frontend_challenge/static/js/3.3ca53f6b.chunk.js",
     "static/js/3.3ca53f6b.chunk.js.map": "/AC_twitter_frontend_challenge/static/js/3.3ca53f6b.chunk.js.map",
     "index.html": "/AC_twitter_frontend_challenge/index.html",
     "static/css/2.34108fd0.chunk.css.map": "/AC_twitter_frontend_challenge/static/css/2.34108fd0.chunk.css.map",
-    "static/css/main.03c0fecc.chunk.css.map": "/AC_twitter_frontend_challenge/static/css/main.03c0fecc.chunk.css.map",
-    "static/js/2.8e6e1999.chunk.js.LICENSE.txt": "/AC_twitter_frontend_challenge/static/js/2.8e6e1999.chunk.js.LICENSE.txt",
+    "static/css/main.a456deb1.chunk.css.map": "/AC_twitter_frontend_challenge/static/css/main.a456deb1.chunk.css.map",
+    "static/js/2.e11356e4.chunk.js.LICENSE.txt": "/AC_twitter_frontend_challenge/static/js/2.e11356e4.chunk.js.LICENSE.txt",
     "static/media/Group.138b9680.svg": "/AC_twitter_frontend_challenge/static/media/Group.138b9680.svg",
     "static/media/Notice.2f3c0131.svg": "/AC_twitter_frontend_challenge/static/media/Notice.2f3c0131.svg",
     "static/media/Vector.2d9cf03f.svg": "/AC_twitter_frontend_challenge/static/media/Vector.2d9cf03f.svg",
@@ -49,8 +49,8 @@
   "entrypoints": [
     "static/js/runtime-main.c7d5e062.js",
     "static/css/2.34108fd0.chunk.css",
-    "static/js/2.8e6e1999.chunk.js",
-    "static/css/main.03c0fecc.chunk.css",
-    "static/js/main.82aa9482.chunk.js"
+    "static/js/2.e11356e4.chunk.js",
+    "static/css/main.a456deb1.chunk.css",
+    "static/js/main.28224f81.chunk.js"
   ]
 }
