@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AC_twitter_frontend_challenge/static/css/main.e612ef14.chunk.css",
-    "main.js": "/AC_twitter_frontend_challenge/static/js/main.7e36dd2e.chunk.js",
-    "main.js.map": "/AC_twitter_frontend_challenge/static/js/main.7e36dd2e.chunk.js.map",
+    "main.js": "/AC_twitter_frontend_challenge/static/js/main.90902ae1.chunk.js",
+    "main.js.map": "/AC_twitter_frontend_challenge/static/js/main.90902ae1.chunk.js.map",
     "runtime-main.js": "/AC_twitter_frontend_challenge/static/js/runtime-main.c009bd30.js",
     "runtime-main.js.map": "/AC_twitter_frontend_challenge/static/js/runtime-main.c009bd30.js.map",
     "static/css/2.34108fd0.chunk.css": "/AC_twitter_frontend_challenge/static/css/2.34108fd0.chunk.css",
@@ -52,6 +52,6 @@
     "static/css/2.34108fd0.chunk.css",
     "static/js/2.7b3aad33.chunk.js",
     "static/css/main.e612ef14.chunk.css",
-    "static/js/main.7e36dd2e.chunk.js"
+    "static/js/main.90902ae1.chunk.js"
   ]
 }
